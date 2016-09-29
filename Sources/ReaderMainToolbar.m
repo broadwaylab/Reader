@@ -103,6 +103,7 @@
 		[doneButton setBackgroundImage:buttonH forState:UIControlStateHighlighted];
 		[doneButton setBackgroundImage:buttonN forState:UIControlStateNormal];
 		doneButton.autoresizingMask = UIViewAutoresizingNone;
+        doneButton.tintColor = [UIColor darkTextColor];
 		//doneButton.backgroundColor = [UIColor grayColor];
 		doneButton.exclusiveTouch = YES;
 
@@ -121,6 +122,7 @@
 		[thumbsButton setBackgroundImage:buttonH forState:UIControlStateHighlighted];
 		[thumbsButton setBackgroundImage:buttonN forState:UIControlStateNormal];
 		thumbsButton.autoresizingMask = UIViewAutoresizingNone;
+        thumbsButton.tintColor = [UIColor darkTextColor];
 		//thumbsButton.backgroundColor = [UIColor grayColor];
 		thumbsButton.exclusiveTouch = YES;
 
@@ -143,6 +145,7 @@
 		[flagButton setBackgroundImage:buttonH forState:UIControlStateHighlighted];
 		[flagButton setBackgroundImage:buttonN forState:UIControlStateNormal];
 		flagButton.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin;
+        flagButton.tintColor = [UIColor darkTextColor];
 		//flagButton.backgroundColor = [UIColor grayColor];
 		flagButton.exclusiveTouch = YES;
 
@@ -172,6 +175,7 @@
 					[emailButton setBackgroundImage:buttonH forState:UIControlStateHighlighted];
 					[emailButton setBackgroundImage:buttonN forState:UIControlStateNormal];
 					emailButton.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin;
+                    emailButton.tintColor = [UIColor darkTextColor];
 					//emailButton.backgroundColor = [UIColor grayColor];
 					emailButton.exclusiveTouch = YES;
 
@@ -196,6 +200,7 @@
 				[printButton setBackgroundImage:buttonN forState:UIControlStateNormal];
 				printButton.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin;
 				//printButton.backgroundColor = [UIColor grayColor];
+                printButton.tintColor = [UIColor darkTextColor];
 				printButton.exclusiveTouch = YES;
 
 				[self addSubview:printButton]; titleWidth -= (iconButtonWidth + buttonSpacing);
@@ -213,6 +218,7 @@
 			[exportButton setBackgroundImage:buttonH forState:UIControlStateHighlighted];
 			[exportButton setBackgroundImage:buttonN forState:UIControlStateNormal];
 			exportButton.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin;
+            exportButton.tintColor = [UIColor darkTextColor]; 
 			//exportButton.backgroundColor = [UIColor grayColor];
 			exportButton.exclusiveTouch = YES;
 
